@@ -1,0 +1,22 @@
+     1	#include <stdio.h>
+     2	#include <iostream>
+     3	using namespace std;
+     4	
+     5	int main(void){
+     6	
+     7	    bool success = true ; 
+     8	    bool success1 = false ;   
+     9	    bool success2= true ; 
+    10	    bool success3 = -2 ; 
+    11	    bool success4 = 0 ; 
+    12	    bool success5 = 1 ; 
+    13	    //===============================================
+    14	    cout << success << endl;
+    15	    cout << success1 << endl;
+    16	    cout << success2 << endl;
+    17	    cout << success3 << endl;
+    18	    cout << success4 << endl;
+    19	    cout << success5 << endl;
+    20	    
+    21	    return 0; 
+    22	}

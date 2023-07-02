@@ -1,0 +1,11 @@
+print_msg:
+	@echo "I am printing a message to you that i must be excuted before the build is complete"
+
+build: print_msg
+# @echo "I am now building "
+	@g++ main.cpp -o main.exe
+
+
+clear:
+# @echo "I am now clearing"
+	@rm *.exe  *.o
